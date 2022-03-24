@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: white;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+nav {
+    overflow: hidden;
+    border-radius: 30px; 
+  }
+  
+  /* Style the links inside the navigation bar */
+  nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    border-left-width: 10px.10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+
+  }
+  
+  /* Change the color of links on hover */
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+    
+  }
+  
+  /* Add a color to the active link */
+  nav a.active {
+    background-color: #0c9bee;
+    color: white;
+  }
+
