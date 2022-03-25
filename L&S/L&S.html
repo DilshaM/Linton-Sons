@@ -78,13 +78,21 @@
         </style>
     </head>
     <body>
-        <div style="background-image: linear-gradient(90deg, #5f0b0f, #6b2020, rgb(177, 99, 99)); display: flex; height: 80px; margin-bottom: 2px;">
+        <div style="background-image: linear-gradient(90deg, #ce5d62, #b87878, rgb(180, 158, 158)); display: flex; height: 80px; margin-bottom: 2px;">
             <div style="flex: 1;"><a href="index.php" style="text-decoration: none;"><img src="img/logo.png" height=80 width=200></a></div>
             <nav>
                 <ul>
                     <li><a href="L&S.html">HOME</a></li>   
                     <li><a href="product.html">PRODUCTS</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">BLOG
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="history.html">HISTORY</a>
+                          <a href="about_us.html">ABOUT US</a>
+                        </div>
+                      </div>     
                     <li><a href="contact.html">CONTACT</a></li>
                     
                 </ul>
@@ -96,7 +104,7 @@
         <div class="slideshow">
 
             <div class="mySlides fade">
-            <img src="slideshow/slide4.jpg" style="width: 97%; margin-left: 2%; height: 550px;">
+            <img src="slideshow/slide1.jpg" style="width: 97%; margin-left: 2%; height: 550px;">
             </div>
 
             <div class="mySlides fade">
@@ -138,8 +146,182 @@
             }
         </script>
         <!-- end slider section -->
-
-
+        <!--wait-->
+        <!-- why section -->
+      <section class="why_section layout_padding">
+        <div class="container">
+           <div class="heading_container heading_center">
+              <h2>
+                 Why Shop With Us
+              </h2>
+           </div>
+           <!-- The grid: three columns -->
+            <div class="row">
+                <div class="column" style="background:#002c3e;">
+                    <h3>
+                        Fast Delivery
+                    </h3>
+                 <p>
+                    variations of passages of Lorem Ipsum available
+                 </p>
+                </div>
+                <div class="column" style="background:#002c3e;">
+                    <h3>
+                        Free Shiping
+                    </h3>
+                 <p>
+                    variations of passages of Lorem Ipsum available
+                 </p>
+                </div>
+                <div class="column" style="background:#002c3e;">
+                    <h3>
+                        Best Quality
+                    </h3>
+                     <p>
+                        variations of passages of Lorem Ipsum available
+                     </p>
+                </div>
+            </div>
             
+        </div>
+     </section>
+     <!-- end why section -->
+
+    <!-- arrival section -->
+      <section class="arrival_section">
+        <div class="container">
+           <div class="box">
+              <div class="arrival_bg_box">
+                 <img src="img/arrivals-bg.jpg" alt="">
+              </div>
+              <div class="row">
+                 <div class="col-md-6 ml-auto">
+                    <div class="heading_container remove_line_bt">
+                       <h2>
+                          #NewArrivals
+                       </h2>
+                    </div>
+                    <p style="margin-top: 20px;margin-bottom: 30px;">
+                       Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
+                    </p>
+                    <a href="">
+                    Shop Now
+                    </a>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <!-- end arrival section -->
+
+     <!-- subscribe section -->
+     <section class="subscribe_section">
+        <div class="container-fuild">
+           <div class="box">
+              <div class="row">
+                 <div class="col-md-6 offset-md-3">
+                    <div class="subscribe_form ">
+                       <div class="heading_container heading_center">
+                          <h3>Subscribe To Get Discount Offers</h3>
+                       </div>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                       <form action="">
+                          <input type="email" placeholder="Enter your email">
+                          <button>
+                          subscribe
+                          </button>
+                       </form>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+     <!-- end subscribe section -->
+
+     <!-- footer start -->
+     <footer>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-4">
+                  <div class="full">
+                     <div class="logo_footer">
+                       <a href="#"><img width="210" src="img/logo.png" alt="#" /></a>
+                     </div>
+                     <div class="information_f">
+                       <p><strong>ADDRESS:</strong> 28 White tower, Street Name New York City, USA</p>
+                       <p><strong>TELEPHONE:</strong> +91 987 654 3210</p>
+                       <p><strong>EMAIL:</strong> yourmain@gmail.com</p>
+                     </div>
+                  </div>
+              </div>
+              <div class="col-md-8">
+                 <div class="row">
+                 <div class="col-md-7">
+                    <div class="row">
+                       <div class="col-md-6">
+                    <div class="widget_menu">
+                       <h3>Menu</h3>
+                       <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Testimonial</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Contact</a></li>
+                       </ul>
+                    </div>
+                 </div>
+                 <div class="col-md-6">
+                    <div class="widget_menu">
+                       <h3>Account</h3>
+                       <ul>
+                          <li><a href="#">Account</a></li>
+                          <li><a href="#">Checkout</a></li>
+                          <li><a href="#">Login</a></li>
+                          <li><a href="#">Register</a></li>
+                          <li><a href="#">Shopping</a></li>
+                          <li><a href="#">Widget</a></li>
+                       </ul>
+                    </div>
+                 </div>
+                    </div>
+                 </div>     
+                 <div class="col-md-5">
+                    <div class="widget_menu">
+                       <h3>Newsletter</h3>
+                       <div class="information_f">
+                         <p>Subscribe by our newsletter and get update protidin.</p>
+                       </div>
+                       <div class="form_sub">
+                          <form>
+                             <fieldset>
+                                <div class="field">
+                                   <input type="email" placeholder="Enter Your Mail" name="email" />
+                                   <input type="submit" value="Subscribe" />
+                                </div>
+                             </fieldset>
+                          </form>
+                       </div>
+                    </div>
+                 </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+     <!-- footer end -->
+     <div class="cpy_">
+        <p>© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a></p>
+     </div>
+     <!-- jQery -->
+     <script src="js/jquery-3.4.1.min.js"></script>
+     <!-- popper js -->
+     <script src="js/popper.min.js"></script>
+     <!-- bootstrap js -->
+     <script src="js/bootstrap.js"></script>
+     <!-- custom js -->
+     <script src="js/custom.js"></script>
+  
     </body>
 </html>
